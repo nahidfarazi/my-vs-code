@@ -1,0 +1,92 @@
+{
+    "editor.fontFamily": "Dank Mono",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "single",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "left",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 8,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "window.zoomLevel": 0.6,
+    "custom-ui-style.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 20,
+            "y": 16
+        }
+    },
+    "custom-ui-style.stylesheet": {
+        ".quick-input-list .scrollbar": "display: none",
+        ".sidebar": "border: none !important",
+        ".sidebar .title-label": "padding: 0 !important",
+        ".title-actions": "display: none !important",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center",
+        ".title .monaco-icon-label:after": "margin-right:0",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+    },
+    "window.menuBarVisibility": "compact",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 2,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000",
+        "editorIndentGuide.activeBackground": "default"
+    },
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.7,
+    // editor.lineHeight
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+        ]
+    },
+    "editor.stickyScroll.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "editor.guides.indentation": false,
+    "editor.formatOnSave": true,
+    "animations.Enabled": true,
+    "animations.Install-Method": "Custom UI Style",
+    "custom-ui-style.external.imports": [
+        "file:///c:/Users/Nahid/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "background.editorBackgrounds": [
+        "c:/Users/Nahid/Pictures/golag2.jpg",
+        "c:/Users/Nahid/Pictures/golag1.jpg"
+    ],
+    "background.backgroundBlur": [
+        "0",
+        "40",
+        "0",
+        "0"
+    ],
+    "background.backgroundOpacity": [
+        0.1,
+        0.1,
+        0.1,
+        0.1
+    ],
+}
